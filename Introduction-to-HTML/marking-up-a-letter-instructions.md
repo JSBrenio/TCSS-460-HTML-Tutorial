@@ -2,12 +2,6 @@
 
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter
 
-## In this article
-- [Starting point](#starting_point)
-- [Project brief](#project_brief)
-- [Hints and tips](#hints_and_tips)
-- [Example](#example)
-
 ## Starting point
 To begin, get the [raw text you need to mark up](https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/marking-up-a-letter-start/letter-text.txt), and the [CSS to style the HTML](https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/marking-up-a-letter-start/css.txt). Create a new `.html` file using your text editor or use an online editor such as [CodePen](https://codepen.io/), [JSFiddle](https://jsfiddle.net/), or [Glitch](https://glitch.com/).
 
