@@ -1,17 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeremiah Brenio</title>
-</head>
-<body>
-    <tbody>
-        <tr>
-            <td>
-                <h2>Assessments</h2>
-                <ul>
-                    <li><a href="example.html">First</li>
-                </ul>
-</body>
+<html lang="en-US">
+        <!-- 
+        From the MDN documentation:
+        This is useful in many ways. 
+        Your HTML document will be indexed more effectively by search engines if 
+        its language is set (allowing it to appear correctly in language-specific results, for example), 
+        and it is useful to people with visual impairments using screen readers (for example, the word "six" 
+        exists in both French and English, but is pronounced differently.)
+        -->
+    <head>
+        <meta charset="UTF-8">
+        <!-- This element specifies the document's character encoding — the character set that the document is permitted to use. 
+         utf-8 is a universal character set that includes pretty much any character from any human language. 
+         web page will be able to handle displaying any language; 
+         could handle English and Japanese just fine -->
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Jeremiah Brenio" />
+        <meta
+        name="description"
+        content="Starting page that shows all the assessments completed from Web MDN:
+        https://developer.mozilla.org/en-US/docs/Learn/HTML" />
+        <!-- Helps search engines based off how favorable the description is -->
+        <title>Home Page</title>
+        <link rel="icon" href="home.png" />
+        <!-- apply a website icon, more commonly favicons with .ico files -->
+
+        <link rel="stylesheet" href="main.css" />
+        <!-- 
+            <link rel="stylesheet" href="my-css-file.css" />
+            This is a link template to a CSS file that will style the HTML page.
+            From the MDN documentation:
+            The <link> element should always go inside the head of your document. 
+            This takes two attributes, rel="stylesheet", 
+            which indicates that it is the document's stylesheet, and href, 
+            which contains the path to the stylesheet file:
+        -->
+
+        <!--
+            <script src="my-js-file.js" defer></script>
+            This is a link template to a JavaScript file that will add interactivity to the HTML page.
+            From the MDN documentation:
+            The <script> element should also go into the head, 
+            and should include a src attribute containing the path to the JavaScript you want to load, and defer, 
+            which basically instructs the browser to load the JavaScript after the page has finished parsing the HTML. 
+            This is useful as it makes sure that the HTML is all loaded before the JavaScript runs, 
+            so that you don't get errors resulting from JavaScript trying to access an HTML element that doesn't exist on the page yet. 
+            There are actually a number of ways to handle loading JavaScript on your page, but this is the most reliable one to use for modern browsers
+        -->
+    </head>
+    <body>
+        
+        <header>
+            <h1>Home Page - Jeremiah Brenio</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html" title="Home Page">Home</a></li>
+                <li><a href="Introduction-to-HTML/marking-up-a-letter.html" title="The first tutorial">Introduction to HTML</a></li>
+                <li><a href="#" title="The second tutorial">Multimedia and embedding</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <h2>HTML — Structuring the web completed Assessments</h2>
+            <p>
+                This is the home page for all the assessments completed from Web MDN:
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" title="MDN HTML tutorials">MDN HTML tutorials</a>
+            </p>
+            <h3>Introduction to HTML</h3>
+            <ul>
+                <li><a href="Introduction-to-HTML/marking-up-a-letter.html" title="The first assessment">Marking Up A Letter</a></li>
+                <!-- 
+                A basic link is created by wrapping the text or other content inside an <a> element and using the href attribute, 
+                also known as a Hypertext Reference, or target, that contains the web address.
+                Another attribute you may want to add to your links is title. 
+                The title contains additional information about the link, 
+                such as which kind of information the page contains, or things to be aware of on the website.
+                -->
+                <li>Second</li>
+            </ul>
+
+            <h3>Multimedia and embedding</h3>
+            <ul>
+                <li>First</li>
+                <li>Second</li>
+            </ul>
+
+            <h3>HTML tables</h3>
+            <ul>
+                <li>First</li>
+                <li>Second</li>
+            </ul>
+            
+            <!--
+            <h2>Other Projects</h2>
+
+            <h3>Github Pages</h3>
+            <ul>
+                <li><a 
+                    href="https://jsbrenio.github.io/TCSS-343-Algorithm-Project/" 
+                    title="The first tutorial">Pathfinding algorithms</a></li>
+                <li><a 
+                    href="https://jsbrenio.github.io/Blazor-Project/" 
+                    title="The first tutorial">Sorting algorithms</a></li>
+            </ul>
+            -->
+        </main>
+        <footer>
+            <p>Contact info:</p>
+            <address>
+                name: Jeremiah Brenio<br>
+                email: <a href="mailto:jsbrenio@uw.edu">jsbrenio@uw.edu</a><br>
+            </address>
+        </footer>
+    </body>
 </html>

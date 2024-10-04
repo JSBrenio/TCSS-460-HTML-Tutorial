@@ -1,0 +1,8 @@
+a:visited {
+    color: blue;
+    text-decoration: none; /* Remove the underline */
+}
+
+a.active {
+    color: purple;
+}
