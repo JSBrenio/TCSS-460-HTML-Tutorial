@@ -22,3 +22,18 @@ p,ul,ol,dl,address {
 p, li, dd, dt, address {
     line-height: 1.5;
 }
+
+a:visited {
+    color: blue;
+    text-decoration: none; /* Remove the underline */
+}
+
+a.active {
+    color: purple;
+}
+
+header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
