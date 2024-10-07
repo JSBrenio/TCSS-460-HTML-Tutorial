@@ -6,3 +6,9 @@ a:visited {
 a.active {
     color: purple;
 }
+
+header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
