@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+<head>
     <meta name="author" content="Jeremiah Brenio" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Table template</title>
+    <title>structuring planet data</title>
     <link rel="icon" href="../assets/home.png">
     <link href="structuring-planet-data.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../main.css" />
-  </head>
-  <body>
+</head>
+<body>
     <header class="main-header">
         <h1>Assessment 4 - Jeremiah Brenio</h1>
         
@@ -20,13 +20,97 @@
                 <li><a href="../Introduction-to-HTML/structuring-a-page-content.html" title="The second tutorial">Structuring a page content</a></li>
                 <li><a href="../Multimedia-and-Embedding/multimedia-and-embedding.html" title="The Third tutorial">Mozilla splash page</a></li>
                 <li><a class="active" href="structuring-planet-data.html" title="The Fourth tutorial">Structuring planet data</a></li>
-
+                
             </ul>
         </nav>
     </header>
-
-    <h1>Table template</h1>
-
-
-  </body>
+    
+    <h1>Planet Data Table</h1>
+    
+    <table>
+        <caption>
+            Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+        </caption>
+        <thead>
+            <tr>
+                <td></td>
+                <td>Name</td>
+                <td>Mass (10<sup>24</sup>kg)</td>
+                <td>Diameter (km)</td>
+                <td>Density (kg/m<sup>3</sup>)</td>
+                <td>Gravity (m/s<sup>2</sup>)</td>
+                <td>Length of day (hours)</td>
+                <td>Distance from Sun (10<sup>6</sup>km)</td>
+                <td>Mean temperature (°C)</td>
+                <td>Number of moons</td>
+                <td>Notes</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Terrestrial planets</td>
+                <td>Mercury</td>
+                <td>0.330</td>
+                <td>4879</td>
+                <td>5427</td>
+                <td>3.7</td>
+                <td>4222.6</td>
+                <td>57.9</td>
+                <td>167</td>
+                <td>0</td>
+                <td>Closest to the Sun</td>
+            </tr>
+            <tr>
+                <td>Venus</td>
+                <td>4.87</td>
+                <td>12104</td>
+                <td>5243</td>
+                <td>8.9</td>
+                <td>2802.0</td>
+                <td>108.2</td>
+                <td>464</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Earth</td>
+                <td>5.97</td>
+                <td>12756</td>
+                <td>5514</td>
+                <td>9.8</td>
+                <td>24.0</td>
+                <td>149.6</td>
+                <td>15</td>
+                <td>1</td>
+                <td>Our home planet</td>
+            </tr>
+            <tr>
+                <td>Mars</td>
+                <td>0.642</td>
+                <td>6792</td>
+                <td>3933</td>
+                <td>3.7</td>
+                <td>24.6</td>
+                <td>227.9</td>
+                <td>-65</td>
+                <td>2</td>
+                <td>The red planet</td>
+            </tr>
+            <tr>
+                <td>Jupiter</td>
+                <td>1898</td>
+                <td>142984</td>
+                <td>1326</td>
+                <td>23.1</td>
+                <td>9.9</td>
+                <td>778.6</td>
+                <td>-110</td>
+                <td>67</td>
+                <td></td>
+            </tr>
+    </table>
+    
+    
+    
+</body>
 </html>
