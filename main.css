@@ -1,39 +1,39 @@
 .main-header a:visited {
-    color: blue !important;
-    text-decoration: none !important; /* Remove the underline */
+    color: blue;
+    text-decoration: none; /* Remove the underline */
 }
 
 .main-header a.active {
-    color: purple !important;
+    color: purple;
 }
 
 .main-header h1 {
-    text-shadow: none !important;
-    text-align: center !important;
-    font-family: Arial, sans-serif !important;
-    font-size: 24px !important;
-    text-transform: uppercase !important;
+    text-shadow: none;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
 .main-header nav ul {
-    padding: 0 !important;
-    display: flex !important;
-    flex-flow: row wrap !important;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .main-header nav li {
-    display: inline !important;
-    text-align: center !important;
-    flex: 1 !important;
+    display: inline;
+    text-align: center;
+    flex: 1;
 }
 
-.main-header nav a{
-    text-transform: uppercase !important;
-    font-family: Arial, sans-serif !important;
-    font-size: 16px !important;
-    color: black !important;
+.main-header nav a {
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
 }
 
 .main-header, .main-header nav, .main-header nav ul, .main-header nav li {
-    background: none !important;
+    background: none;
 }

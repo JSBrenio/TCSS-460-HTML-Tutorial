@@ -3,22 +3,22 @@
     margin: 0 auto;
 }
   
-.sender-column {
+.letter-content .sender-column {
     text-align: right;
 }
 
-h1 {
+.letter-content h1 {
     font-size: 1.5em;
 }
 
-h2 {
+.letter-content h2 {
     font-size: 1.3em;
 }
 
-p,ul,ol,dl,address {
+.letter-content p, ul, ol, dl, address {
     font-size: 1.1em;
 }
 
-p, li, dd, dt, address {
+.letter-content p, li, dd, dt, address {
     line-height: 1.5;
 }
